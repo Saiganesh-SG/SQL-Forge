@@ -42,6 +42,16 @@ mvn clean compile
 
 ### Running the Application
 
+**Option 1: Quick Start (Recommended)**
+```bash
+# On Linux/Mac
+./run.sh
+
+# On Windows
+run.bat
+```
+
+**Option 2: Using Maven directly**
 ```bash
 # Run using Maven
 mvn exec:java
